@@ -1,81 +1,37 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module 2 solution</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-      .listing {
-        background: #DBA19C;
-        padding: 20px;
-        margin: 20px 10px 0px 10px;
-        position: relative;
-        border: 1px solid black ;
+## Welcome to GitHub Pages
 
-      }
+You can use the [editor on GitHub](https://github.com/gretasivickaite/web/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-      .title {
-        background: white;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        padding: 7px 20px 7px 30px;
-        border: 1px solid black;
-      }
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-      .discription{
-        padding: 70px 20px 20px 20px;
-      }
+### Markdown
 
-      .container{
-        margin:10px
-      }
-      
-    </style>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-  </head>
+```markdown
+Syntax highlighted code block
 
-  <body>
-  <div class="container">
-  <!-- Page heading -->
-  <h1>H1 Hello world!</h1>
+# Header 1
+## Header 2
+### Header 3
 
-  <div class="row">
-    <div class="col-lg-4 col-md-6">
-      <div class="listing">
-        <h2 class="title", style="background:#BC7C9C">H2 Title 1</h2>
-        <p class="discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
+- Bulleted
+- List
 
-    <div class="col-lg-4 col-md-6">
-      <div class="listing">
-        <h2 class="title", style="background:#A96DA3">H2 Title 2</h2>
-        <p class="discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-12">
-      <div class="listing">
-        <h2 class="title", style="background:#7A5980">H2 Title 3</h2>
-        <p class="discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
-  </body>
-  
-  <!-- desktop - equal spacing one row; use percentage, use float property -->
+1. Numbered
+2. List
 
-  <!-- Tablet 2 first row, 1 second row (take up the whole row by itself) -->
+**Bold** and _Italic_ and `Code` text
 
-  <!-- Mobile stacks -->
+[Link](url) and ![Image](src)
+```
 
-  <!-- Each section has: title region that is always position top right.
-        use relative and absolute posittioning and offsets -->
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-  <!-- Spacing use margns and paddings and border-box as your box-sizing -->
+### Jekyll Themes
 
-  <!-- borders and colours. section with background colour; each section title region with unique colour. BOrader on section and title region black 1px,  -->
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gretasivickaite/web/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-</html>
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
